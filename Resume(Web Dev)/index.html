@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avik - ML Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Avik</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Avik</span>
+                </h1>
+                <h2 class="hero-subtitle">ML Engineer & AI Specialist</h2>
+                <p class="hero-description">
+                    Passionate about building intelligent systems and exploring data-driven solutions. 
+                    Specializing in Machine Learning, Computer Vision, and IoT technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">View My Work</a>
+                    <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">89%</span>
+                        <span class="stat-label">Model Accuracy</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2027</span>
+                        <span class="stat-label">Graduation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-brain"></i>
+                    <span>AI/ML</span>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-code"></i>
+                    <span>Python</span>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-eye"></i>
+                    <span>Computer Vision</span>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-network-wired"></i>
+                    <span>IoT</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick About Section -->
+    <section class="quick-about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a B.Tech Computer Science student at Bennett University, specializing in 
+                        Artificial Intelligence & Machine Learning. With a passion for innovative 
+                        technology solutions, I've developed expertise in:
+                    </p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check"></i> Machine Learning & Deep Learning</li>
+                        <li><i class="fas fa-check"></i> Computer Vision & Image Processing</li>
+                        <li><i class="fas fa-check"></i> IoT & Smart Home Automation</li>
+                        <li><i class="fas fa-check"></i> Data Analysis & Visualization</li>
+                    </ul>
+                    <a href="about.html" class="btn btn-outline">Learn More About Me</a>
+                </div>
+                <div class="about-image">
+                    <div class="tech-stack-visual">
+                        <div class="tech-item" style="--delay: 0s">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item" style="--delay: 0.2s">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="tech-item" style="--delay: 0.4s">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="tech-item" style="--delay: 0.6s">
+                            <i class="fas fa-brain"></i>
+                            <span>TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-Time Video Analysis</h3>
+                        <p>Advanced computer vision system for real-time object detection and tracking using OpenCV and deep learning models.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Computer Vision</span>
+                        </div>
+                        <a href="projects.html#video-analysis" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stock Price Prediction</h3>
+                        <p>Machine learning model achieving 89% accuracy in stock price forecasting using historical data analysis.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">ML</span>
+                        </div>
+                        <a href="projects.html#stock-prediction" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Home Automation</h3>
+                        <p>IoT-based home automation system with real-time sensor monitoring and remote control capabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">MQTT</span>
+                        </div>
+                        <a href="projects.html#smart-home" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Preview -->
+    <section class="skills-preview">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>Python</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>Java</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>SQL</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>Scikit-Learn</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>TensorFlow</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>Computer Vision</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data & Tools</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>Pandas/Numpy</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>MySQL/MongoDB</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>Data Visualization</span>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="skills.html" class="btn btn-outline">View Complete Skills</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Build Something Amazing?</h2>
+                <p>Let's collaborate on innovative ML/AI projects and bring your ideas to life.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+                    <a href="projects.html" class="btn btn-secondary">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Avik</h3>
+                    <p>ML Engineer & AI Specialist passionate about building intelligent systems.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Technologies</h4>
+                    <ul>
+                        <li>Python & ML</li>
+                        <li>Computer Vision</li>
+                        <li>IoT & Automation</li>
+                        <li>Data Analysis</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Greater Noida, India</p>
+                    <p><i class="fas fa-graduation-cap"></i> Bennett University</p>
+                    <p><i class="fas fa-calendar"></i> Expected Graduation: 2027</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Avik. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
